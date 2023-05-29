@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Portfolio</title>
+        <style>
+            body{
+                background-size: cover;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li{
+                float:left;
+            }
+            li a{
+                display: block;
+                color:darkorchid;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size:25px;
+            }
+            .cont{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+            }
+            h1{
+                font-family: cursive;
+                font-size: 45px;
+                display: flex;
+                justify-content:center;
+                color: black;
+            }
+            pre{
+                font-size:30px;
+                font-family:'Times New Roman', Times, serif;
+            }
+           
+            pre.about{
+                font-size: 25px;
+                color:darkgoldenrod;
+            }
+            .text {
+                  padding-left: 25px;
+           }
+           img {
+                 max-width: 100%;
+               }
+          .image {
+                 flex-basis: 40%;
+                }
+        </style>
+    </head>
+    <body background="bimg3.jpg">
+        <ul>
+            <li><a href="#" class="ex1">Home</a></li>
+            <li><a href="#about" class="ex1">About</a></li>
+            <li><a href="#skills" class="ex1">Skills</a></li>
+            <li><a href="#Contact" class="ex1">Contact</a></li>
+        </ul>
+        <div class="cont">
+           <div class="image">
+                <img src="gimg.jpg" class="image">
+           </div>
+               <div class="text">
+                     <h1 style="font-size:50px;padding-left: 20px;color:darkcyan";>Hello! I'm <br>Neerajakshi Bandlamudi</h1>
+                     <p style="font-size:30px;color:darkolivegreen;padding-left: 20px;"><b>Web Designer and Web Developer</b></p>
+                </div>
+        </div>
+        <pre style="color:darkorchid"; id="about">About myself</pre>
+        <pre class="about">
+            I'm Neerajakshi Bandlamudi. I graduated from RVR & JC College Of Engineering a
+            month ago. Now,I'm seeking for a firstfull-time job. I have been working as  a
+            web developer for the last three yearsand cooperated with several startups . I
+            cannot say with 100% confidence whereI see myself in five years or what my big
+            career goal is.The world ischanging rapidly and I don't have enough professional
+            experience to be certain about such things.
+        </pre>
+        <pre style="color:darkorchid" id="skills">My Skills</pre>
+        <pre style="color:darkgoldenrod;font-family: cursive;font-size:25px ;" >
+            &#9758Problem Solving
+            &#9758Communication Skills
+            &#9758web Designer
+        </pre>
+        <pre style="color:darkorchid" id="Contact">Contact me</pre>
+        <pre style="color:darkgoldenrod;font-family: cursive;font-size: 25px;">
+            Place:Guntur
+            Phone no: +919358529494
+            Email me: &#9993neerajakshi2004@gmail.com</pre>
+    </body>
+</html>
+

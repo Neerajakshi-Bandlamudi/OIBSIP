@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Landing Page</title>
+        <style type="text/css">
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                background-image:url("img2.jpg");
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            h1{
+                color:red;
+                padding-top:300px;
+                padding-left:50px;
+                font-size:40px;
+                font-family:cursive;
+               }
+           
+            a{
+               position:relative;
+               left:1050px;
+               text-decoration:underline;
+               font-size:20px;
+               padding:5px;
+               color:red;
+               font-family:cursive;
+               background-color:yellow;
+              }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="ex1">
+                    <a href="https://www.asianpaints.com/products/paints-and-textures.html" target="_blank">PAINTS & COLOURS</a>
+                    <a href="https://www.asianpaints.com/services.html" target="_blank">SERVICES</a>
+                    <a href="https://www.asianpaints.com/online-shop.html" target="_blank">SHOP</a>
+                </div>
+            </nav>
+              <h1 align=left>Quick Painting <br>by<br> Asian Paints</h1>
+         </header>
+    </body>
